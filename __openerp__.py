@@ -1,7 +1,10 @@
 {
     'name': "AbAKUS Bank Statement improvements",
     'version': '1.0',
-    'depends': ['account'],
+    'depends': [
+        'account',
+        'l10n_be_coda'
+    ],
     'author': "Valentin THIRION, AbAKUS it-solutions SARL",
     'website': "http://www.abakusitsolutions.eu",
     'category': 'Accounting',
@@ -11,5 +14,4 @@
 
     """,
     'data': ['view/account.bank.statement.form.xml'],
-    'demo': [],
 }
